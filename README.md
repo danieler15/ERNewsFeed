@@ -2,7 +2,7 @@
 
 ERNewsFeed is a customizable news feed interface for your iOS app. It is meant to be easy to implement with just 2 required protocol methods.
 
-![ERNewsFeed](raw.github.com/danieler15/ERNewsFeed/master/screenshot.png)
+![ERNewsFeed](https://raw.github.com/danieler15/ERNewsFeed/master/screenshot.png)
 
 ## Installation
 
