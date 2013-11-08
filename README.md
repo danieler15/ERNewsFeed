@@ -4,15 +4,15 @@ ERNewsFeed is a customizable news feed interface for your iOS app. It is meant t
 
 ## Installation
 
-* Drag the 'ERNewsFeed/ERNewsFeed' folder into your project.
-* Add the **QuartzCore** framework to your project.
+* Drag the `ERNewsFeed/ERNewsFeed` folder into your project.
+* Add the `QuartzCore` framework to your project.
 * Note: ERNewsFeed uses ARC
 
 ## Usage
 
 ### Configuring Your ViewController
 
-First, make sure your view controller conforms to the 'ERNewsFeedDelegate' protocol. You may want to make the ERNewsFeed a property of your view controller:
+First, make sure your view controller conforms to the `ERNewsFeedDelegate` protocol. You may want to make the ERNewsFeed a property of your view controller:
 
 ```objective-c
 @interface MyViewController : UIViewController <ERNewsFeedDelegate>
@@ -62,7 +62,7 @@ This method tells the ERNewsFeed how many posts to draw (like the numberOfRows m
 }
 ```
 
-This is a simple example of filling in values to show your feed post. First you must create a postView object that is a **subclass** ofERNewsFeedPostView. In the future, different subclasses will draw different styles of posts. Currently, you must use ERNewsFeedPostViewDefault. Notice how values are set directly via the exposed labels that belong to the ERNewsFeedPostViewDefault object (see next section for more info about customization). The above would create a view like the first image above.
+This is a simple example of filling in values to show your feed post. First you must create a postView object that is a **subclass** of ERNewsFeedPostView. In the future, different subclasses will draw different styles of posts. Currently, you must use ERNewsFeedPostViewDefault. Notice how values are set directly via the exposed labels that belong to the ERNewsFeedPostViewDefault object (see next section for more info about customization). The above would create a view like the first image above.
 
 ## Customization
 
@@ -72,7 +72,6 @@ ERNewsFeed has several editable properties that dictate how *all* posts are draw
 * `backgroundColor`: background color of the news feed
 * `postBackgroundColor`: default background color of posts
 * `defaultFontName`: default font name for post labels (sizes must be changed by label: see next section)
-
 * `sideMargin`: the horizontal space between a post and the feed's frame border
 * `verticalMargin`: the vertical space between individual posts
 * `postViewWidth`: width of each post view (Changing this changes the `sideMargin` and vice versa)
@@ -100,7 +99,7 @@ v.backgroundColor = [UIColor cyanColor];
 post.bottomAccessoryView = v;
 ```
 
-When creating the view, the origin x,y coordinates can be random- these will be set to the  appropriate values. However, the width *must* be feed.postViewWidth. Heigh can be whatever you want.
+When creating the view, the origin x,y coordinates can be random- these will be set to the  appropriate values. However, the width *must* be feed.postViewWidth. Height can be whatever you want.
 
 ## Credits
 
