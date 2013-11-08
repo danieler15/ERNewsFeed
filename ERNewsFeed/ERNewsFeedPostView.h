@@ -18,7 +18,7 @@
 
 
 
-- (id)initWithFeedView:(ERNewsFeed *)feed;
+- (id)initWithFeed:(ERNewsFeed *)feed;
 
 - (int)heightInFeed:(ERNewsFeed *)feedView;
 - (void)finishEditing;

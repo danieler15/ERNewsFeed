@@ -23,7 +23,7 @@
 @implementation ERNewsFeedPostView
 
 
-- (id)initWithFeedView:(ERNewsFeed *)feed {
+- (id)initWithFeed:(ERNewsFeed *)feed {
     self = [super init];
     if (self) {
         self.feed = feed;

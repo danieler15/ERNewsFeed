@@ -22,6 +22,7 @@
 		6089EFED182B2D04008F389D /* ERNewsFeedPostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6089EFEC182B2D04008F389D /* ERNewsFeedPostView.m */; };
 		6089EFF2182D472C008F389D /* ERNewsFeedPostViewDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 6089EFF1182D472C008F389D /* ERNewsFeedPostViewDefault.m */; };
 		6089EFF4182D6BF3008F389D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6089EFF3182D6BF3008F389D /* QuartzCore.framework */; };
+		6089EFF6182D80D0008F389D /* stock_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6089EFF5182D80D0008F389D /* stock_image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		6089EFF0182D472C008F389D /* ERNewsFeedPostViewDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERNewsFeedPostViewDefault.h; sourceTree = "<group>"; };
 		6089EFF1182D472C008F389D /* ERNewsFeedPostViewDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERNewsFeedPostViewDefault.m; sourceTree = "<group>"; };
 		6089EFF3182D6BF3008F389D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6089EFF5182D80D0008F389D /* stock_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stock_image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		6089EFC8182B2BF3008F389D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6089EFF5182D80D0008F389D /* stock_image.jpg */,
 				6089EFC9182B2BF3008F389D /* ERNewsFeedDemo-Info.plist */,
 				6089EFCA182B2BF3008F389D /* InfoPlist.strings */,
 				6089EFCD182B2BF3008F389D /* main.m */,
@@ -195,6 +198,7 @@
 				6089EFD6182B2BF3008F389D /* Default@2x.png in Resources */,
 				6089EFD8182B2BF3008F389D /* Default-568h@2x.png in Resources */,
 				6089EFDB182B2BF3008F389D /* MainStoryboard.storyboard in Resources */,
+				6089EFF6182D80D0008F389D /* stock_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -46,7 +46,6 @@
     
     CGRect userImRect = CGRectMake(edgeMargin, edgeMargin+summaryHeight+innerMargin, thumbnailLength, thumbnailLength);
     self.thumbnailImageView = [[UIImageView alloc] initWithFrame:userImRect];
-    self.thumbnailImageView.backgroundColor = [UIColor cyanColor];
     
     self.bigSubtitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(edgeMargin+thumbnailLength+innerMargin, edgeMargin+summaryHeight+innerMargin+2, self.feed.postViewWidth - (2*edgeMargin) - thumbnailLength - innerMargin, 20)];
     self.bigSubtitleLabel.font = [UIFont fontWithName:self.feed.defaultFontName size:14.0];
