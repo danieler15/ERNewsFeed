@@ -50,7 +50,7 @@ This method tells the ERNewsFeed how many posts to draw (like the numberOfRows m
 ```objective-c
 - (ERNewsFeedPostView *)feedPostForFeed:(ERNewsFeed *)feed itemNumber:(int)itemNumber {
     
-    ERNewsFeedPostViewDefault *post = [[ERNewsFeedPostViewDefault alloc] initWithFeedView:feed];
+    ERNewsFeedPostViewDefault *post = [[ERNewsFeedPostViewDefault alloc] initWithFeed:feed];
     
     post.summaryLabel.text = @"Here is what's going on:";
     post.bigSubtitleLabel.text = @"John Smith";
